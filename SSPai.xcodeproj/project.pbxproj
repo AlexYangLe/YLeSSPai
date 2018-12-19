@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012D477FE7DCB85E4DEEE482 /* libPods-SSPai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E0E9B93210B0F43C483495 /* libPods-SSPai.a */; };
+		0803DE4A21A7D3D00036EA78 /* YLeBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803DE4921A7D3D00036EA78 /* YLeBaseRequest.m */; };
+		0803DE6F21ABDA750036EA78 /* YLeNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0803DE6E21ABDA750036EA78 /* YLeNetworkAgent.m */; };
+		08CEB11721AD457E00418BF3 /* YLeNetworkAgent+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEB11621AD457E00418BF3 /* YLeNetworkAgent+Private.m */; };
+		08CEB11A21AE98E200418BF3 /* YLeNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEB11921AE98E200418BF3 /* YLeNetworkConfig.m */; };
+		08CEB11D21AFB49F00418BF3 /* YLeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEB11C21AFB49F00418BF3 /* YLeRequest.m */; };
 		08F6D91321A528C700DABF2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F6D91221A528C700DABF2E /* AppDelegate.m */; };
 		08F6D91621A528C700DABF2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F6D91521A528C700DABF2E /* ViewController.m */; };
 		08F6D91921A528C700DABF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F6D91721A528C700DABF2E /* Main.storyboard */; };
@@ -16,6 +22,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0803DE4821A7D3D00036EA78 /* YLeBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLeBaseRequest.h; sourceTree = "<group>"; };
+		0803DE4921A7D3D00036EA78 /* YLeBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLeBaseRequest.m; sourceTree = "<group>"; };
+		0803DE6D21ABDA750036EA78 /* YLeNetworkAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLeNetworkAgent.h; sourceTree = "<group>"; };
+		0803DE6E21ABDA750036EA78 /* YLeNetworkAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLeNetworkAgent.m; sourceTree = "<group>"; };
+		081864EB21A6BD30007820A4 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		08CEB11521AD457E00418BF3 /* YLeNetworkAgent+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLeNetworkAgent+Private.h"; sourceTree = "<group>"; };
+		08CEB11621AD457E00418BF3 /* YLeNetworkAgent+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YLeNetworkAgent+Private.m"; sourceTree = "<group>"; };
+		08CEB11821AE98E200418BF3 /* YLeNetworkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLeNetworkConfig.h; sourceTree = "<group>"; };
+		08CEB11921AE98E200418BF3 /* YLeNetworkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLeNetworkConfig.m; sourceTree = "<group>"; };
+		08CEB11B21AFB49F00418BF3 /* YLeRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLeRequest.h; sourceTree = "<group>"; };
+		08CEB11C21AFB49F00418BF3 /* YLeRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLeRequest.m; sourceTree = "<group>"; };
 		08F6D90E21A528C700DABF2E /* SSPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F6D91121A528C700DABF2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08F6D91221A528C700DABF2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		08F6D91D21A528C900DABF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08F6D91F21A528C900DABF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08F6D92021A528C900DABF2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C11CF0787ACA4EF88D3A7CDE /* Pods-SSPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSPai/Pods-SSPai.debug.xcconfig"; sourceTree = "<group>"; };
+		CD923A3B8F8D3F74AF47F637 /* Pods-SSPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSPai/Pods-SSPai.release.xcconfig"; sourceTree = "<group>"; };
+		D9E0E9B93210B0F43C483495 /* libPods-SSPai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSPai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012D477FE7DCB85E4DEEE482 /* libPods-SSPai.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081864E821A64FC1007820A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F6D91F21A528C900DABF2E /* Info.plist */,
+				08F6D92021A528C900DABF2E /* main.m */,
+				08F6D91A21A528C900DABF2E /* Assets.xcassets */,
+				08F6D91121A528C700DABF2E /* AppDelegate.h */,
+				08F6D91221A528C700DABF2E /* AppDelegate.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		081864E921A6BC98007820A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08F6D91421A528C700DABF2E /* ViewController.h */,
+				08F6D91521A528C700DABF2E /* ViewController.m */,
+				08F6D91721A528C700DABF2E /* Main.storyboard */,
+				08F6D91C21A528C900DABF2E /* LaunchScreen.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		081864EA21A6BCB7007820A4 /* http service */ = {
+			isa = PBXGroup;
+			children = (
+				081864EB21A6BD30007820A4 /* Macro.h */,
+				0803DE4821A7D3D00036EA78 /* YLeBaseRequest.h */,
+				0803DE4921A7D3D00036EA78 /* YLeBaseRequest.m */,
+				0803DE6D21ABDA750036EA78 /* YLeNetworkAgent.h */,
+				0803DE6E21ABDA750036EA78 /* YLeNetworkAgent.m */,
+				08CEB11521AD457E00418BF3 /* YLeNetworkAgent+Private.h */,
+				08CEB11621AD457E00418BF3 /* YLeNetworkAgent+Private.m */,
+				08CEB11821AE98E200418BF3 /* YLeNetworkConfig.h */,
+				08CEB11921AE98E200418BF3 /* YLeNetworkConfig.m */,
+				08CEB11B21AFB49F00418BF3 /* YLeRequest.h */,
+				08CEB11C21AFB49F00418BF3 /* YLeRequest.m */,
+			);
+			path = "http service";
+			sourceTree = "<group>";
+		};
 		08F6D90521A528C700DABF2E = {
 			isa = PBXGroup;
 			children = (
 				08F6D91021A528C700DABF2E /* SSPai */,
 				08F6D90F21A528C700DABF2E /* Products */,
+				5B7EC947EF933364182B3DCD /* Pods */,
+				2710EF5E8E410CFFCC7527CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +122,28 @@
 		08F6D91021A528C700DABF2E /* SSPai */ = {
 			isa = PBXGroup;
 			children = (
-				08F6D91121A528C700DABF2E /* AppDelegate.h */,
-				08F6D91221A528C700DABF2E /* AppDelegate.m */,
-				08F6D91421A528C700DABF2E /* ViewController.h */,
-				08F6D91521A528C700DABF2E /* ViewController.m */,
-				08F6D91721A528C700DABF2E /* Main.storyboard */,
-				08F6D91A21A528C900DABF2E /* Assets.xcassets */,
-				08F6D91C21A528C900DABF2E /* LaunchScreen.storyboard */,
-				08F6D91F21A528C900DABF2E /* Info.plist */,
-				08F6D92021A528C900DABF2E /* main.m */,
+				081864EA21A6BCB7007820A4 /* http service */,
+				081864E921A6BC98007820A4 /* Home */,
+				081864E821A64FC1007820A4 /* Supporting Files */,
 			);
 			path = SSPai;
+			sourceTree = "<group>";
+		};
+		2710EF5E8E410CFFCC7527CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E0E9B93210B0F43C483495 /* libPods-SSPai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B7EC947EF933364182B3DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C11CF0787ACA4EF88D3A7CDE /* Pods-SSPai.debug.xcconfig */,
+				CD923A3B8F8D3F74AF47F637 /* Pods-SSPai.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08F6D92421A528C900DABF2E /* Build configuration list for PBXNativeTarget "SSPai" */;
 			buildPhases = (
+				8458BEC2A719C3EE6D44EB28 /* [CP] Check Pods Manifest.lock */,
 				08F6D90A21A528C700DABF2E /* Sources */,
 				08F6D90B21A528C700DABF2E /* Frameworks */,
 				08F6D90C21A528C700DABF2E /* Resources */,
@@ -136,14 +212,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8458BEC2A719C3EE6D44EB28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSPai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08F6D90A21A528C700DABF2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08F6D91621A528C700DABF2E /* ViewController.m in Sources */,
+				0803DE4A21A7D3D00036EA78 /* YLeBaseRequest.m in Sources */,
+				08CEB11D21AFB49F00418BF3 /* YLeRequest.m in Sources */,
 				08F6D92121A528C900DABF2E /* main.m in Sources */,
+				08CEB11721AD457E00418BF3 /* YLeNetworkAgent+Private.m in Sources */,
 				08F6D91321A528C700DABF2E /* AppDelegate.m in Sources */,
+				08CEB11A21AE98E200418BF3 /* YLeNetworkConfig.m in Sources */,
+				0803DE6F21ABDA750036EA78 /* YLeNetworkAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +385,12 @@
 		};
 		08F6D92521A528C900DABF2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11CF0787ACA4EF88D3A7CDE /* Pods-SSPai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SSPai/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SSPai/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +403,12 @@
 		};
 		08F6D92621A528C900DABF2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD923A3B8F8D3F74AF47F637 /* Pods-SSPai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SSPai/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SSPai/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
